@@ -158,8 +158,9 @@ p {
 
 #portfoliosection{
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(15, 1, 66, 0.733)),
-  url(/public/images/texture.jpg);
+  url(/images/texture.jpg);
   background-size: cover;
+
 }
 #portfoliogallery{
   display:flex;
@@ -208,7 +209,10 @@ p {
   text-align: center;
   font-family: 'Coda', cursive;
 }
-
+.whitetitle{
+  color: #64eb8d;
+  padding-top: 40px;
+}
 
 
 
