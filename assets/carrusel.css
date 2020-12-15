@@ -1,18 +1,21 @@
-
 #servicios{
+  background-image: url(/images/whitep.jpg);
+  background-attachment: fixed;
   margin:0;
-  overflow-x: hidden;
+  height: 400px;
+  padding: 100px;
 }
-.container{
-  background-image: url(/images/fondo.jpg);
+
+.scontainer{
   background-size: cover;
   margin: auto;
   width: 100%;
+  height: auto;
   padding: 30px;
   margin: 0px;
 }
 
-ul, li {
+ ul, li {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -53,17 +56,17 @@ ul.slider li:target {
     opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
-.menu{
+.s-menu{
   text-align: center;
   margin: 20px;
 }
 
-.menu li{
+.s-menu li{
   display: inline-block;
   text-align: center;
 }
 
-.menu li a{
+.s-menu li a{
   display: inline-block;
   color: white;
   text-decoration: none;
@@ -76,10 +79,11 @@ ul.slider li:target {
 }
 
 .services-container{
-  background-color: purple;
+  background: rgb(88,9,121);
+  background: linear-gradient(331deg, rgba(88,9,121,1) 2%, rgba(100,76,172,1) 12%, rgba(100,235,141,1) 75%);
   padding: 20px;
   border-radius: 25px;
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: -10px 0px 5px rgba(0, 0, 0, 0.301);
   width: 20%;
   text-align: center;
 }

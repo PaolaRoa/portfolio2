@@ -94,7 +94,10 @@ p {
   
 }
 
-
+#about-me{
+  background-image: url(/images/whitep.jpg);
+  background-attachment: fixed;
+}
 
 #skills {
   display: flex;
@@ -105,6 +108,7 @@ p {
 }
 
 .bio {
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -214,7 +218,8 @@ p {
 }
 .whitetitle{
   color: #64eb8d;
-  padding-top: 40px;
+  padding-top: 100px;
+  margin-top: 0px;
 }
 
 
