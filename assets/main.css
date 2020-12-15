@@ -1,0 +1,214 @@
+/*hoja de estilos*/
+/*font-family: 'Coda', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+body {
+  margin: 0px;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+li {
+  margin-right: 30px;
+  font-family: "Coda", cursive;
+}
+a {
+  color: #8d7cf2;
+  text-decoration: none;
+  font-family: "Coda", cursive;
+}
+a:hover {
+  color: #64eb8d;
+  font-weight: 600;
+}
+
+a.active{
+  color: white;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #64eb8d;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #6a42e5;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+}
+
+#superior{
+  background:transparent;
+  display: flex;
+  width: 100%;
+  position: fixed;
+
+}
+
+#inicio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(15, 1, 66, 0.733)),
+    url(/public/images/keyboard.jpg);
+  background-size: cover;
+  height: 600px;
+  overflow: visible;
+  
+}
+.mainmenu {
+  display: flex;
+  flex: 80%;
+  list-style: none;
+  float: right;
+  margin-right: 5%;
+  padding-top: 20px;
+  /*border: red;
+  border-style: solid;*/
+
+  
+}
+
+#bienvenida {
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  text-align: center;
+  align-self: center;
+  color: white;
+  padding: 50px;
+  padding-top: 100px;
+  line-height: 50px;
+  font-weight: 400;
+
+}
+
+.logo {
+  width: 100px;
+  margin: 20px;
+  
+}
+
+
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  padding: 0px 70px 30px 70px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.bio > div {
+  padding: 50px;
+}
+@media (max-width: 800px) {
+  .bio {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+}
+
+.fotoredonda {
+  height: 300px;
+  width: auto;
+  border-radius: 150px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+.section {
+  padding: 0px;
+}
+
+.prog{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+
+}
+
+#skills h5{
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #1a1a1a;
+  
+}
+#skills h6{
+  margin: 0;
+  padding-top: 80px;
+  font-family: 'Coda', cursive;
+  color: #6a42e5;
+  font-size: 14px;
+  
+  
+}
+.big{
+  font-size: 72px;
+}
+
+#portfoliosection{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(15, 1, 66, 0.733)),
+  url(/public/images/texture.jpg);
+  background-size: cover;
+}
+#portfoliogallery{
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  padding: 5%;
+  
+}
+.container{
+  position: relative;
+  height: 200px;
+  margin: 20px;
+}
+.imgportfolio{
+  width: 300px;
+  height: auto;
+  box-shadow: 10px 10px 10px black;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgb(42,221,81);
+  background: linear-gradient(337deg, rgba(42,221,81,1) 22%, rgba(98,62,229,1) 70%);
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Coda', cursive;
+}
+
+
+
+
