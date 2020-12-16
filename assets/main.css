@@ -238,6 +238,7 @@ p {
   /*background-color: #8964f7;*/
   border-radius: 25px;
   box-shadow: 0px 0px 10px black;
+  width: 400px;
 }
 
 label{
@@ -248,10 +249,10 @@ label{
 }
 
 #direccion{
-  background-color: purple;
+
   padding: 30px;
   margin: 50px;
-  margin-top: 100px;
+ /* margin-top: 100px;*/
 
 }
 
@@ -278,10 +279,41 @@ textarea
   height:100px;
 }
 
-address{
+address, address a{
   color: white;
 }
 
+
+
 .field-set{
   margin-top: 10px;
+}
+.btn-mio {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  background-color: #623EE5;
+  border-radius: 5px 5px 40px 5px;
+  border: none;
+  width: 100px;
+
+}
+
+.btn-mio:hover 
+{
+  background-color: #2add51;
+  font-weight: 1000;
+}
+
+.mi-dato
+{
+background-color:#623EE5;
+margin-top: 30px;
+padding:15px;
+width:300px;
+border-radius: 5px 5px 40px 5px;
+}
+
+i{
+  margin:5px;
 }
