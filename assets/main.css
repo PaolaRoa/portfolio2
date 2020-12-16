@@ -21,13 +21,14 @@ a {
   font-family: "Coda", cursive;
 }
 a:hover {
-  color: #64eb8d;
+  color: #64eb8d !important;
   font-weight: 600;
+  text-decoration: underline !important;
 }
 
-a.active{
+/*a.active{
   color: white;
-}
+}*/
 
 h2 {
   font-family: "Raleway", sans-serif;
