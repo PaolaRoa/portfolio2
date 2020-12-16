@@ -163,7 +163,7 @@ p {
   font-size: 72px;
 }
 
-#portfoliosection {
+#portfoliosection, #historia {
   background-image:linear-gradient(rgba(46, 46, 46, 0.199), rgba(0, 0, 0, 0.541)),
   url(/images/texture.jpg);
   background-attachment: fixed;
@@ -316,4 +316,15 @@ border-radius: 5px 5px 40px 5px;
 
 i{
   margin:5px;
+}
+#historia{
+  display: flex;
+  flex-wrap:wrap;
+  box-sizing: border-box;
+  flex-direction: inherit;
+}
+.experiencia, .educacion{
+ width:500px;
+  display: block;
+  margin:50px;
 }
