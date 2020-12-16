@@ -95,7 +95,7 @@ p {
   
 }
 
-#about-me{
+#about-me, #contacto{
   background-image: url(/images/w2.jpg);
   background-attachment: fixed;
 }
@@ -163,7 +163,7 @@ p {
   font-size: 72px;
 }
 
-#portfoliosection{
+#portfoliosection {
   background-image:linear-gradient(rgba(46, 46, 46, 0.199), rgba(0, 0, 0, 0.541)),
   url(/images/texture.jpg);
   background-attachment: fixed;
@@ -222,6 +222,66 @@ p {
   padding-top: 100px;
   margin-top: 0px;
 }
+.spacer-half{
+  height: 50px;
+}
+#contacto{
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
 
+#formulario {
+  padding: 30px;
+  margin: 50px;
+  /*background-color: #8964f7;*/
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px black;
+}
 
+label{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color:#313131;
 
+}
+
+#direccion{
+  background-color: purple;
+  padding: 30px;
+  margin: 50px;
+  margin-top: 100px;
+
+}
+
+input, textarea{
+  width: -webkit-fill-available;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.521);
+  border-radius:5px 5px 30px 5px;
+}
+input:focus, textarea:focus{
+  border:2px solid #6a42e5;
+  box-shadow: 0 0 5px #6a42e5;
+}
+
+:focus { outline: none; }
+
+input
+{
+  height: 30px;
+}
+textarea
+{
+  height:100px;
+}
+
+address{
+  color: white;
+}
+
+.field-set{
+  margin-top: 10px;
+}

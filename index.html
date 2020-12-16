@@ -283,11 +283,54 @@
 
   <div id="contacto">
     <div id="formulario">
+      <div>
+        <form name="contactForm" id='contact_form' method="post" action='email.php'>
+
+            <div class="field-set">
+                <label for="name">Tu Nombre</label><br>
+                <input type='text' name='name' id='name' class="form-control"
+                    placeholder="Angelina Jolie">
+            </div>
+
+            <div class="field-set">
+                <label for="email">Tu Correo Electronico</label><br>
+                <input type='text' name='email' id='email' class="form-control"
+                    placeholder="usuario@gmail.com">
+            </div>
+
+            <div class="field-set">
+                <label for="phone">Tu Teléfono</label><br>
+                <input type='text' name='phone' id='phone' class="form-control"
+                    placeholder="3334445555">
+            </div>
+
+            <div class="field-set">
+                <label for="message">¿Qué quieres decirme?</label><br>
+                <textarea name='message' id='message' class="form-control"
+                    placeholder="¡Hola, Me encanta tu pagina!"></textarea>
+            </div>
+
+            <div class="spacer-half"></div>
+
+            <div id='submit'>
+                <input type='submit' id='Enviar' value='Enviar' class="btn-mio">
+            </div>
+            <div id='mail_success' class='success'>Tu mensaje se ha enviado, pronto te contactare.
+            </div>
+            <div id='mail_fail' class='error'>Lo sentimos, tu mennsaje no se envió, intentalo mas
+                tarde</div>
 
     </div>
-    <div id="direccion">
-
-    </div>
+    
+  </div>
+  <div id="direccion">
+    <address>
+      <span><i class="fa fa-map-marker-alt"></i></i>Bogotá, Colombia</span><br>
+      <span><a href="https://wa.me/573214845851" target="blank"><i
+                  class="fa fa-whatsapp"></i>+57 321 484 5851</a></span><br>
+      <span><i class="fa fa-envelope"></i><a
+              href="mailto:e.creativo.a@gmail.com">e.creativo.a@gmail.com</a></span>
+    </address>
   </div>
 
 <!--slider movil-->
