@@ -26,14 +26,14 @@
   <div id="inicio">
     <div class="wrapper">
       <!--prueba menú-->
-      <div id="superior">
+      <div class="menu" id="header">
         <a href="#inicio">
           <img class="logo" src="images/logoPR.png" alt="" />
         </a>
         <header>
           <input type="checkbox" id="btn-menu" />
           <label for="btn-menu"><img src="/images/menuicon.png" alt="" /></label>
-          <nav class="menu">
+          <nav class="mainmenu">
             <ul>
               <li><a href="">inicio</a></li>
               <li><a href="#about-me">sobre mi</a></li>
@@ -286,6 +286,22 @@
   
   <!---Seccion contacto-->
 
+
+<!-----Javascript-->
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("header");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("menu-scroll");
+    } else {
+      header.classList.remove("menu-scroll");
+    }
+  }
+  </script>
   
 </body>
 
