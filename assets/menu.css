@@ -22,7 +22,7 @@ header label:hover{
     background: rgba(0,0,0,0.3);
 }
 
-.menu ul{
+.mainmenu ul{
     margin: 0;
     list-style: none;
     padding: 0;
@@ -33,7 +33,7 @@ header label:hover{
 /*.menu li:hover{
     background: green;
 }*/
-.menu li a {
+.mainmenu li a {
     display:block;
     padding: 15px 20px;
     color: white;
@@ -48,27 +48,31 @@ header label:hover{
 
     }
 
-    .menu {
+    .mainmenu {
         position: absolute;
         background-color: rebeccapurple;
         margin-left: -70%;
         transition: 0.5s;
     }
 
-    .menu ul{
+    .mainmenu ul{
         flex-direction: column;
         widows: 70%;
     }
 
-    .menu li{
+    .mainmenu li{
         border-top: 1px solid white;
     }
 
-    #btn-menu:checked ~ .menu{
+    #btn-menu:checked ~ .mainmenu{
         margin: 0;
     }
     .logo{
         display: none;
+    }
+    .menu-scroll{
+        display: none;
+    
     }
 }
 
