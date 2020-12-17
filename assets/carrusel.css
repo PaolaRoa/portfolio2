@@ -84,9 +84,11 @@ ul.slider li:target {
   padding: 20px;
   border-radius: 25px;
   box-shadow: -10px 0px 5px rgba(0, 0, 0, 0.301);
-  width: 20%;
+  width: 30%;
+  margin: 10px;
   text-align: center;
 }
+
 #slide2, #slide1{
   background-color: transparent;
   
@@ -173,7 +175,13 @@ ul.mslider li:target {
 .slider, .mslider{
   color:white;
 }
-.slider p, mslider p{
+.slider p{
   font-family: 'Raleway', sans-serif;
   color: #d3d3d3;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width:800px){
+  .mslider p{
+    font-size: 14px;}
 }
