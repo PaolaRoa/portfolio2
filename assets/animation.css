@@ -30,7 +30,7 @@
     height: 100%; 
     border-radius: 13px; 
     animation-name: progressbar;
-    animation-duration: 3s;
+    animation-duration: 5s;
 
   }
  
@@ -49,8 +49,8 @@
     width: 25%; 
     height: 100%; 
     border-radius: 13px; 
-    animation-name: progressbar;
-    animation-duration: 3s;
+    /*animation-name: progressbar;
+    animation-duration: 3s;*/
 
   }
   
@@ -74,8 +74,8 @@
     width: 30%; 
     height: 100%; 
     border-radius: 13px; 
-    animation-name: progressbar;
-    animation-duration: 3s;
+    /*animation-name: progressbar;
+    animation-duration: 3s;*/
   }
 
   .progress40{ 
@@ -93,6 +93,7 @@
     width: 40%; 
     height: 100%; 
     border-radius: 13px; 
-    animation-name: progressbar;
-    animation-duration: 3s;
+    /*animation-name: progressbar;
+    animation-duration: 3s;*/
   }
+
