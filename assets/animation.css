@@ -26,7 +26,27 @@
     content: ''; 
     display: block; 
     background: #18ff5d; 
-    width: 50%; 
+    width: 30%; 
+    height: 100%; 
+    border-radius: 13px; 
+    animation-name: progressbar;
+    animation-duration: 3s;
+
+  }
+ 
+  .progress25{ 
+    background: #161616a2; 
+    border-radius: 13px; 
+    height: 5px; 
+    width: 300px; 
+    padding: 0; 
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.534);
+  }
+  .progress25:after { 
+    content: ''; 
+    display: block; 
+    background:#18ff5d; 
+    width: 25%; 
     height: 100%; 
     border-radius: 13px; 
     animation-name: progressbar;
@@ -36,7 +56,43 @@
   
   @keyframes progressbar{
     from {width:1%;}
-    to {width: 50%;}
   
   }
- 
+
+  .progress30{ 
+    background: #161616a2; 
+    border-radius: 13px; 
+    height: 5px; 
+    width: 300px; 
+    padding: 0; 
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.534);
+  }
+  .progress30:after { 
+    content: ''; 
+    display: block; 
+    background:#18ff5d; 
+    width: 30%; 
+    height: 100%; 
+    border-radius: 13px; 
+    animation-name: progressbar;
+    animation-duration: 3s;
+  }
+
+  .progress40{ 
+    background: #161616a2; 
+    border-radius: 13px; 
+    height: 5px; 
+    width: 300px; 
+    padding: 0; 
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.534);
+  }
+  .progress40:after { 
+    content: ''; 
+    display: block; 
+    background:#18ff5d; 
+    width: 40%; 
+    height: 100%; 
+    border-radius: 13px; 
+    animation-name: progressbar;
+    animation-duration: 3s;
+  }
