@@ -377,3 +377,7 @@ footer{
   vertical-align: middle;
   align-items: flex-end;
 }
+.bio p{
+  color: #1a1a1a;
+  font-family: 'Raleway', sans-serif;
+}
