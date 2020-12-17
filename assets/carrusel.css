@@ -181,7 +181,10 @@ ul.mslider li:target {
   font-size: 1.5vw;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
+  .mservices-container{
+    width: 100%;
+  }
   .mslider p{
     font-size: 14px;}
 }
