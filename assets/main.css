@@ -61,7 +61,7 @@ p {
   background-size: cover;
   height: 600px;
   overflow: visible;
-  
+  background-repeat: no-repeat;
 }
 .mainmenu {
   display: flex;
@@ -98,6 +98,8 @@ p {
 #about-me, #contacto{
   background-image: url(/images/w2.jpg);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  
 }
 
 #skills {
@@ -164,10 +166,12 @@ p {
 }
 
 #portfoliosection, #historia {
-  background-image:linear-gradient(rgba(46, 46, 46, 0.199), rgba(0, 0, 0, 0.541)),
+  background-image:linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.541)),
   url(/images/texture.jpg);
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  font-family:  'Coda', cursive;
 
 }
 #portfoliogallery{
@@ -327,4 +331,28 @@ i{
  width:500px;
   display: block;
   margin:50px;
+}
+.exp-box h5{
+  color: white;
+  border:2px solid #2add51;
+  padding:5px;
+  width: fit-content;
+  border-radius: 5px;
+  font-size: 14px;
+  
+}
+
+.exp-box h3{
+  color: rgb(218, 218, 218);
+  font-size: 14px;
+  
+
+}
+.exp-box p{
+  color: rgb(202, 202, 202);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+span{
+  font-family: 'Coda', cursive;
 }
