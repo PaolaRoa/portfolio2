@@ -25,12 +25,16 @@
   .progress:after { 
     content: ''; 
     display: block; 
-    background: #18ff5d; 
+    background: #5801FF;
+    background: -webkit-linear-gradient(left, #5801FF, #01FF1D);
+    background: -moz-linear-gradient(left, #5801FF, #01FF1D);
+    background: linear-gradient(to right, #5801FF, #01FF1D);
     width: 30%; 
     height: 100%; 
     border-radius: 13px; 
     animation-name: progressbar;
     animation-duration: 5s;
+    animation-timing-function: ease-out;
 
   }
  
@@ -42,10 +46,11 @@
     padding: 0; 
     box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.534);
   }
-  .progress25:after { 
+  
+  progress25:after { 
     content: ''; 
     display: block; 
-    background:#18ff5d; 
+  
     width: 25%; 
     height: 100%; 
     border-radius: 13px; 
@@ -70,7 +75,6 @@
   .progress30:after { 
     content: ''; 
     display: block; 
-    background:#18ff5d; 
     width: 30%; 
     height: 100%; 
     border-radius: 13px; 
@@ -89,7 +93,6 @@
   .progress40:after { 
     content: ''; 
     display: block; 
-    background:#18ff5d; 
     width: 40%; 
     height: 100%; 
     border-radius: 13px; 

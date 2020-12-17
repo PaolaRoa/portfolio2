@@ -6,7 +6,7 @@ var header = document.getElementById("header");
 var logo = document.getElementById("logo-menu");
 var sticky = header.offsetTop;
 var bars = document.getElementsByClassName("bar")
-var skill= document.getElementById("about-me");
+var inicio= document.getElementById("inicio");
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
@@ -19,7 +19,7 @@ function myFunction() {
     logo.innerHTML = '<img class="logo" src="images/logoPR.png" alt="" />';
   }
 /*aca le digo que si el scroll es mayor a la altura del header me agregue la clase progress que tiene la animacin*/
-  if (window.pageYOffset > header.scrollHeight){
+  if (window.pageYOffset > inicio.scrollHeight){
     for (i=0; i< bars.length;i++){
       bars[i].classList.add("progress")
     }
