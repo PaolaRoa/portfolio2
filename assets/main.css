@@ -93,6 +93,7 @@ p {
 .logo {
   width: 100px;
   margin: 20px;
+  transition: 2s;
   
 }
 
