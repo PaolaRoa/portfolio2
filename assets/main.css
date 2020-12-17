@@ -4,6 +4,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
 h1 {
   font-family: 'Coda', cursive;
