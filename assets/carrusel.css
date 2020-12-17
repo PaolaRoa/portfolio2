@@ -162,6 +162,18 @@ ul.mslider li:target {
   background: linear-gradient(331deg, rgba(88,9,121,1) 2%, rgba(100,76,172,1) 12%, rgba(100,235,141,1) 75%);
   padding: 20px;
   border-radius: 25px;
-  width: 200px;
+  width: 80%;
   text-align: center;
+}
+
+.slider i, mslider i{
+  font-size: 60px;
+}
+
+.slider, .mslider{
+  color:white;
+}
+.slider p, mslider p{
+  font-family: 'Raleway', sans-serif;
+  color: #d3d3d3;
 }
