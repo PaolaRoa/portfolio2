@@ -356,3 +356,24 @@ i{
 span{
   font-family: 'Coda', cursive;
 }
+footer{
+  background-color: rgb(31, 31, 31);
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.RRSS{
+  padding: 20px;
+
+}
+.RRSS i{
+  font-size: 32px;
+  padding:0 10px 0px 10px;
+}
+.RRSS div{
+  align-content: center;
+  vertical-align: middle;
+  align-items: flex-end;
+}
