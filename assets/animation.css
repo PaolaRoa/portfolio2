@@ -33,7 +33,7 @@
     height: 100%; 
     border-radius: 13px; 
     animation-name: progressbar;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
 
   }
