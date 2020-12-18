@@ -2,6 +2,9 @@
 /*font-family: 'Coda', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;*/
+html{
+  overflow-x: hidden ;
+}
 body {
   margin: 0px;
   overflow-x: hidden;
