@@ -100,10 +100,17 @@ p {
   height: 40px;
   width: auto;
   margin: 0;
-  padding: 5px 20px 0 ;
+  padding:  5px 20px ;
   transition: 2s;
 }
-#about-me, #contact-container{
+#about-me{
+  background-image: url(/images/w2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact-container{
   background-image: url(/images/w2.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -111,9 +118,9 @@ p {
 }
 #contact-container h4{
   margin: 0;
-  padding: 50px 0 0 0;
+  padding: 50px 0 0;
+
 }
-padding: 50px 0 0 0;
 #skills {
   display: flex;
   flex-wrap: wrap;
