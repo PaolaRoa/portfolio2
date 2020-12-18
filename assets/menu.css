@@ -32,6 +32,7 @@ header label:hover{
     padding: 0;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 
 /*.menu li:hover{
@@ -42,6 +43,7 @@ header label:hover{
     padding: 15px 20px;
     color: white;
     text-decoration: none;
+    padding-top: 0;
 }
 
 
@@ -82,7 +84,7 @@ header label:hover{
 
 .menu-scroll{
     background: #623ee5;
-    height: 80px;
+    height: 50px;
     transition: 2s;
 
 }

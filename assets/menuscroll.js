@@ -11,7 +11,7 @@ var inicio= document.getElementById("inicio");
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("menu-scroll");
-    logo.innerHTML = '<img class="logo" src="images/logo.png" alt="" />';
+    logo.innerHTML = '<img class="logo-2" src="images/logo.png" alt="" />';
 
   }
    else {
